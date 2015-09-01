@@ -1,0 +1,57 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "idea",
+            "otherEntityName": "idea",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "name"
+        },
+        {
+            "relationshipId": 2,
+            "relationshipName": "user",
+            "otherEntityName": "user",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "login"
+        },
+        {
+            "relationshipId": 3,
+            "relationshipName": "pledge",
+            "otherEntityName": "pledge",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "estimation"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "cost",
+            "fieldType": "BigDecimal",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "pledged",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "creation_date",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20150831082950",
+    "dto": "no",
+    "pagination": "no"
+}

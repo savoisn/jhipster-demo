@@ -1,0 +1,40 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "user",
+            "otherEntityName": "user",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "login"
+        },
+        {
+            "relationshipId": 2,
+            "relationshipName": "estimation",
+            "otherEntityName": "estimation",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "name"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "amount",
+            "fieldType": "BigDecimal",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "comment",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "creation_date",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20150831083132",
+    "dto": "no",
+    "pagination": "no"
+}

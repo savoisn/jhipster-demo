@@ -1,0 +1,54 @@
+
+<div>
+    <h2><span translate="startmeupApp.idea.detail.title">Idea</span> {{idea.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="startmeupApp.idea.name">Name</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{idea.name}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="startmeupApp.idea.description">Description</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{idea.description}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="startmeupApp.idea.creation_date">Creation_date</span>
+                </td>
+                <td>
+                    <span class="form-control-static">{{idea.creation_date}}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="startmeupApp.idea.user">user</span>
+                </td>
+                <td>
+                    {{idea.user.login}}
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

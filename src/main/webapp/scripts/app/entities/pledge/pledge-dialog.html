@@ -1,0 +1,63 @@
+
+<form name="editForm" role="form" novalidate ng-submit="save()">
+
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                ng-click="clear()">&times;</button>
+        <h4 class="modal-title" id="myPledgeLabel" translate="startmeupApp.pledge.home.createOrEditLabel">Create or edit a Pledge</h4>
+    </div>
+    <div class="modal-body">
+        <jh-alert-error></jh-alert-error>
+        <div class="form-group">
+            <label for="id" translate="global.field.id">ID</label>
+            <input type="text" class="form-control" id="id" name="id"
+                    ng-model="pledge.id" readonly>
+        </div>
+
+        <div class="form-group">
+            <label translate="startmeupApp.pledge.amount" for="field_amount">Amount</label>
+            <input type="number" class="form-control" name="amount" id="field_amount"
+                    ng-model="pledge.amount"
+                    >
+
+        </div>
+        <div class="form-group">
+            <label translate="startmeupApp.pledge.comment" for="field_comment">Comment</label>
+            <input type="text" class="form-control" name="comment" id="field_comment"
+                    ng-model="pledge.comment"
+                    >
+
+        </div>
+        <div class="form-group">
+            <label translate="startmeupApp.pledge.creation_date" for="field_creation_date">Creation_date</label>
+            <input type="date" class="form-control" name="creation_date" id="field_creation_date"
+                    ng-model="pledge.creation_date"
+                    >
+
+        </div>
+        <div class="form-group">
+            <label translate="startmeupApp.pledge.user" for="field_user">user</label>
+            
+            <select class="form-control" id="field_user" name="user" ng-model="pledge.user" ng-options="user as user.login for user in users track by user.id">
+                <option value=""></option>
+            </select>
+            
+        </div>
+        <div class="form-group">
+            <label translate="startmeupApp.pledge.estimation" for="field_estimation">estimation</label>
+            
+            <select class="form-control" id="field_estimation" name="estimation" ng-model="pledge.estimation" ng-options="estimation as estimation.name for estimation in estimations track by estimation.id">
+                <option value=""></option>
+            </select>
+            
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="clear()">
+            <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span translate="entity.action.cancel">Cancel</span>
+        </button>
+        <button type="submit" ng-disabled="editForm.$invalid || editForm.$submitted" class="btn btn-primary">
+            <span class="glyphicon glyphicon-save"></span>&nbsp;<span translate="entity.action.save">Save</span>
+        </button>
+    </div>
+</form>

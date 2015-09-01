@@ -1,0 +1,28 @@
+{
+    "startmeupApp": {
+        "estimation" : {
+            "home": {
+                "title": "Estimations",
+                "createLabel": "Create a new Estimation",
+                "createOrEditLabel": "Create or edit a Estimation"
+            },
+            "created": "A new Estimation is created with identifier {{ param }}",
+            "updated": "A Estimation is updated with identifier {{ param }}",
+            "deleted": "A Estimation is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Estimation {{ id }}?"
+            },
+            "detail": {
+                "title": "Estimation"
+            },
+            "name": "Name",
+            "description": "Description",
+            "cost": "Cost",
+            "pledged": "Pledged",
+            "creation_date": "Creation_date",
+            "idea": "Idea",
+            "user": "User",
+            "pledge": "Pledge"
+        }
+    }
+}

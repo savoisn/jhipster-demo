@@ -1,0 +1,23 @@
+{
+    "startmeupApp": {
+        "idea" : {
+            "home": {
+                "title": "Ideas",
+                "createLabel": "Créer un nouveau Idea",
+                "createOrEditLabel": "Créer ou éditer un Idea"
+            },
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Idea {{ id }} ?"
+            },
+            "detail": {
+                "title": "Idea"
+            },
+            "name": "Name",
+            "description": "Description",
+            "creation_date": "Creation_date",
+            "user": "User",
+            "estimation": "Estimation"
+        }
+    }
+}
+
