@@ -16,6 +16,9 @@
             "description": "Description",
             "creation_date": "Creation_date",
             "user": "User",
+            "liked": "aimé",
+            "likedislike": "vous aimez? dites le!",
+            "actions": "",
             "estimation": "Estimation"
         }
     }

@@ -10,10 +10,13 @@
         <!-- build:css assets/styles/vendor.css -->
         <!-- bower:css -->
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css" />
         <!-- endbower -->
         <!-- endbuild -->
         <!-- build:css assets/styles/main.css -->
+        <link rel='stylesheet' href='bower_components/textAngular/dist/textAngular.css'>
         <link rel="stylesheet" href="assets/styles/main.css">
+        <link rel="stylesheet" href="assets/styles/app.css">
         <!-- endbuild -->
     </head>
     <body ng-app="startmeupApp">
@@ -67,6 +70,9 @@
 
 
     <!-- build:js({.tmp,src/main/webapp}) scripts/app.js -->
+    <script src='bower_components/textAngular/dist/textAngular-rangy.min.js'></script>
+    <script src='bower_components/textAngular/dist/textAngular-sanitize.min.js'></script>
+    <script src='bower_components/textAngular/dist/textAngular.min.js'></script>
     <script src="scripts/app/app.js"></script>
     <script src="scripts/app/app.constants.js"></script>
     <script src="scripts/components/auth/auth.service.js"></script>
@@ -145,6 +151,7 @@
     <script src="scripts/app/entities/idea/idea.controller.js"></script>
     <script src="scripts/app/entities/idea/idea-dialog.controller.js"></script>
     <script src="scripts/app/entities/idea/idea-detail.controller.js"></script>
+    <script src="scripts/app/entities/idea/idea-create.controller.js"></script>
     <script src="scripts/components/entities/idea/idea.service.js"></script>
     <script src="scripts/app/entities/estimation/estimation.js"></script>
     <script src="scripts/app/entities/estimation/estimation.controller.js"></script>

@@ -2,20 +2,20 @@
     "startmeupApp": {
         "pledge" : {
             "home": {
-                "title": "Pledges",
-                "createLabel": "Créer un nouveau Pledge",
-                "createOrEditLabel": "Créer ou éditer un Pledge"
+                "title": "Soutiens",
+                "createLabel": "Apporter votre soutien a un projet",
+                "createOrEditLabel": "Apporter un soutien"
             },
             "delete": {
-                "question": "Etes-vous certain de vouloir supprimer le Pledge {{ id }} ?"
+                "question": "Etes-vous certain de vouloir retier votre soutien {{ id }} ?"
             },
             "detail": {
-                "title": "Pledge"
+                "title": "Soutien"
             },
-            "amount": "Amount",
-            "comment": "Comment",
-            "creation_date": "Creation_date",
-            "user": "User",
+            "amount": "Montant",
+            "comment": "Commentaire",
+            "creation_date": "Date de Création",
+            "user": "Utilisateur",
             "estimation": "Estimation"
         }
     }

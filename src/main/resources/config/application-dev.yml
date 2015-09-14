@@ -11,7 +11,7 @@ spring:
         dataSourceClassName: org.postgresql.ds.PGSimpleDataSource
         url: 
         databaseName: startmeup
-        serverName: db 
+        serverName: postgres
         username: startmeup
         password: 
 

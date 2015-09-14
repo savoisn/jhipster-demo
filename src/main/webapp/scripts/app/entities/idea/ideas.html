@@ -46,6 +46,9 @@
                     <th translate="startmeupApp.idea.description">Description</th>
                     <th translate="startmeupApp.idea.creation_date">Creation_date</th>
                     <th translate="startmeupApp.idea.user">user</th>
+                    <th translate="startmeupApp.idea.actions">actions</th>
+                    <th translate="startmeupApp.idea.liked">Liked</th>
+                    <th translate="startmeupApp.idea.likedislike">like?</th>
                     <th></th>
                 </tr>
             </thead>
@@ -73,6 +76,21 @@
                                 ng-click="delete(idea.id)"
                                 class="btn btn-danger btn-sm">
                             <span class="glyphicon glyphicon-remove-circle"></span>&nbsp;<span translate="entity.action.delete"> Delete</span>
+                        </button>
+                    </td>
+                    <td>
+                      <span alt='0 people liked this idea'>0</span>
+                    </td>
+                    <td>
+                        <button type="submit"
+                                ng-click="upVote(idea.id)"
+                                class="btn btn-primary btn-sm">
+                            <span><i class="fa fa-thumbs-up fa-lg"></i></span>
+                        </button>
+                        <button type="submit"
+                                ng-click="downVote(idea.id)"
+                                class="btn btn-danger btn-sm">
+                            <span><i class="fa fa-thumbs-down fa-lg"></i></span>
                         </button>
                     </td>
                 </tr>

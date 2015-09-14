@@ -24,6 +24,27 @@ angular.module('startmeupApp')
                     }]
                 }
             })
+            .state('idea.create', {
+                parent: 'entity',
+                url: '/idea/create',
+                data: {
+                    roles: ['ROLE_USER'],
+                    pageTitle: 'startmeupApp.idea.home.title'
+                },
+                views: {
+                    'content@': {
+                        templateUrl: 'scripts/app/entities/idea/idea-create.html',
+                        controller: 'IdeaCreateController'
+                    }
+                },
+                resolve: {
+                    translatePartialLoader: ['$translate', '$translatePartialLoader', function ($translate, $translatePartialLoader) {
+                        $translatePartialLoader.addPart('idea');
+                        $translatePartialLoader.addPart('global');
+                        return $translate.refresh();
+                    }]
+                }
+            })
             .state('idea.detail', {
                 parent: 'entity',
                 url: '/idea/{id}',

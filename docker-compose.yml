@@ -1,5 +1,5 @@
-app:
-  image: jdubois/jhipster-docker
+jhipsterDemo:
+  image: jdubois/jhipster-docker:latest
   volumes:
     - .:/jhipster
   ports:
@@ -8,11 +8,12 @@ app:
     - "3001:3001"
     - "4022:22"
   links:
-    - postgresdb:db
+    - postgresDemo:postgres
 
-postgresdb:
+postgresDemo:
   image: postgres:9.4.4
   ports:
     - "127.0.0.1:5432:5432"
   volumes:
-    - pgdata:/var/lib/prostgresql/data
+    - $PWD/pgdata:/var/lib/prostgresql/data
+

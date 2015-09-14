@@ -1,7 +1,8 @@
 {
     "main": {
-        "title": "Bienvenue, Java Hipster !",
-        "subtitle": "Ceci est votre page d'accueil",
+      "image":"assets/images/Crowd_Funding_Demo_FR.png",
+        "title": "Start Me Up!",
+        "subtitle": "Là ou les idées sont cultivées pour devenir des produits !",
         "logged": {
             "message": "Vous êtes connecté en tant que \"{{username}}\"."
         },

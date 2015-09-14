@@ -1,0 +1,7 @@
+{
+  "name": "moleskin",
+  "version": "1.0.0",
+  "homepage": "https://github.com/stephenstroud/Moleskin",
+  "description": "WYSIWYG editor for editing markdown",
+  "license": "MIT"
+}

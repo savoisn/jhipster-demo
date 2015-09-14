@@ -1,14 +1,14 @@
 {
     "global": {
-        "title": "startmeup",
+        "title": "Start Me Up",
         "browsehappy": "Vous utilisez un <strong>ancien</strong> navigateur. Veuillez <a href=\"http://browsehappy.com/?locale=fr\">mettre à jour votre navigateur</a> pour une meilleure expérience.",
         "menu": {
             "home": "Accueil",
             "entities": {
                 "main": "Entités",
-                "idea": "Idea",
-                "estimation": "Estimation",
-                "pledge": "Pledge",
+                "idea": "Idées",
+                "estimation": "Estimations",
+                "pledge": "Soutiens",
                 "additionalEntity": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
@@ -106,5 +106,5 @@
             "datetimelocal": "Ce champs doit être une date et une heure."
         }
     },
-    "footer": "Ceci est votre pied de page"
+    "footer": "follow on Jive"
 }

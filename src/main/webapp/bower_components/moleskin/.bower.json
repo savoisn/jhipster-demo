@@ -1,0 +1,17 @@
+{
+  "name": "moleskin",
+  "version": "1.0.0",
+  "homepage": "https://github.com/stephenstroud/Moleskin",
+  "description": "WYSIWYG editor for editing markdown",
+  "license": "MIT",
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "e79286b143d5d1c051d9edcb8ba8697420b81b21"
+  },
+  "_source": "git://github.com/stephenstroud/moleskin.git",
+  "_target": "1.0.0",
+  "_originalSource": "moleskin",
+  "_direct": true
+}

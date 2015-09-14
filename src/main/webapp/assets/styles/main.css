@@ -75,6 +75,11 @@ Browser Upgrade Prompt
     background-size: contain;
 }
 
+.crowd_founding {
+    display: inline-block;
+    width: 347px;
+    height: 497px;
+}
 .pad {
     padding: 10px;
 }
@@ -166,3 +171,4 @@ ul#strengthBar {
     background-color: #eee;
     opacity: 1;
 }
+

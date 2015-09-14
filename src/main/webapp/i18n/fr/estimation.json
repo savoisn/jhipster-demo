@@ -3,23 +3,23 @@
         "estimation" : {
             "home": {
                 "title": "Estimations",
-                "createLabel": "Créer un nouveau Estimation",
-                "createOrEditLabel": "Créer ou éditer un Estimation"
+                "createLabel": "Créer une nouvelle estimation",
+                "createOrEditLabel": "Créer ou éditer une estimation"
             },
             "delete": {
-                "question": "Etes-vous certain de vouloir supprimer le Estimation {{ id }} ?"
+                "question": "Etes-vous certain de vouloir supprimer l'estimation {{ id }} ?"
             },
             "detail": {
                 "title": "Estimation"
             },
-            "name": "Name",
+            "name": "Nom",
             "description": "Description",
-            "cost": "Cost",
-            "pledged": "Pledged",
-            "creation_date": "Creation_date",
-            "idea": "Idea",
-            "user": "User",
-            "pledge": "Pledge"
+            "cost": "Cout",
+            "pledged": "Financé",
+            "creation_date": "Date de Création",
+            "idea": "Idée",
+            "user": "Utilisateur",
+            "pledge": "Soutiens"
         }
     }
 }
